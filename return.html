@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    .logo {
+        width: 200px;
+        margin-top: 10px;
+        padding-left: 30px;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        background-color: #f7f7f7;
+        font-size: 21px;
+    }
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        gap: 30px;
+       
+    }
+    nav ul li {
+        display: inline;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+    }
+    main {
+        padding: 20px;
+    }
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+    .product-card {
+        border: 1px solid #ccc;
+        padding: 14px;
+        text-align: center;
+    }
+    
+    .img {
+        max-width: 100%;
+        height: auto;
+    }
+    .left {
+        text-align: center;
+    }
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #f8f8f8;
+        font-size: 20px;
+    }
+</style>
+    <title>Reebok</title>
+</head>
+<body>
+    <header>
+        <div>
+           <img 
+           class="logo"
+           src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/header_brand_logo_RBK.png?q=75&auto=format"alt="rebook logo"/>
+        </div>
+        <nav style="margin-right:550px ;">
+            <ul>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Item</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Classic</a></li>    
+                <li><a href="#">Style</a></li>
+                <li><a href="#">Casual</a></li>
+                <li><a href="#">Sneakers</a></li>
+                <li ><a style="color: rgba(255, 0, 0, 0.778);" href="#">Sale</a></li>  
+                <li><a style="color: green; "href="#" >Login</a></li>
+            </ul>
+        </nav>
+        
+        
+    </header>
+    <main>
+        <section class="product-grid">
+            <div class="product-card">
+                <img class="img" src="https://imagescdn.reebok.in/img/app/product/3/39627953-12965466.jpg?auto=format&w=390" alt="Reebok Women NFX Trainer">
+                <div >
+                    <p class="left">Training Shoes</p>
+                    <p class="left">Reebok Women NFX Trainer</p>
+                    <h4 class="left">₹ 7,599</h4>
+                </div>
+                </div>
+                <div class="product-card">
+                    <img class="img" src="https://imagescdn.reebok.in/img/app/product/3/39627948-12965418.jpg?auto=format&w=390" alt="Reebok Women Club C 85 W">
+                    <div >
+                        <p class="left">Classics Shoes</p>
+                        <p class="left">Reebok Women Club C 85 W</p>
+                        <h4 class="left">₹ 6,999</h4>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img class="img" src="https://imagescdn.reebok.in/img/app/product/3/39627944-12965381.jpg?auto=format&w=390" alt="Reebok Women Energen Plus 2">
+                    <div >
+                        <p class="left">Running Shoes</p>
+                        <p class="left">Reebok Women Energen Plus 2</p>
+                        <h4 class="left">₹ 6,999</h4>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img class="img" src="https://imagescdn.reebok.in/img/app/product/3/39681169-13866734.jpg?auto=format&w=390" alt="Reebok Unisex Classic Leather">
+                    <div>
+                        <p class="left">Classics Shoes</p>
+                        <p class="left">Reebok Unisex Classic Leather</p>
+                        <h4 class="left">₹ 7,999</h4>
+                    </div>
+            </div>
+
+    </section>
+    
+</main>
+<footer>
+    <p>© 2024 Shoe Store. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
